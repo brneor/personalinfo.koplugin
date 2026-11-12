@@ -1,0 +1,15 @@
+# Local and device-specific settings (may contain private contacts)
+settings/
+personalinfo.lua
+*.lua.bak
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Release archives
+*.zip
