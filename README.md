@@ -1,8 +1,15 @@
+<p align="center"><img src="assets/icon.png" width="160" height="160" alt="Personal Info icon: contact card with an open book"></p>
+
 # Personal Information Widget for ZenOS
+
+**Make your e-reader identifiable.** Add your name, contact details, and a custom recovery message to your ZenOS Home screen in KOReader.
 
 An unofficial, independently maintained [ZenOS](https://github.com/xZenLabs/zen-os) Home widget for [KOReader](https://github.com/koreader/koreader). It displays the device owner's name and contact details, useful for identifying a lost e-reader.
 
 > **Compatibility:** built against the external Home-widget API in ZenOS **4.3.1**. The ZenOS settings integration uses runtime hooks because that version does not expose a public external-widget settings API. Later ZenOS releases might require changes. Not yet verified on physical Kindle hardware.
+
+**Repository description:**
+> Customizable owner and contact information widget for ZenOS Home in KOReader.
 
 ## Features
 
@@ -46,6 +53,16 @@ This file lives outside `personalinfo.koplugin`, is not included in the reposito
 
 The widget is part of the **ZenOS Home**, not the native Kindle sleep/lock screen.
 
+## Branding
+
+- [`assets/icon.png`](assets/icon.png) — square 512px monochrome icon (transparent background), suitable for GitHub previews and ZenPM presentation.
+- [`assets/icon-128.png`](assets/icon-128.png) — compact variant.
+- [`assets/icon.svg`](assets/icon.svg) — scalable, simplified outline suitable for e-ink UI themes.
+
+The GitHub repository's **About → Description** should use the description above. The ZenPM scraper reads the repository description; it does not use the plugin's `_meta.lua` description for catalog text.
+
+**Catalog icon caveat:** ZenPM does not currently auto-import an upstream repository's `assets/icon.png` as its `icon_url`. This repository supplies the artwork, but the default catalog may require a separate metadata/asset contribution in [`xZenLabs/repo`](https://github.com/xZenLabs/repo) to show a custom icon.
+
 ## ZenPM catalog compatibility
 
 This public repository is named `personalinfo.koplugin`, meeting ZenPM's
@@ -71,6 +88,9 @@ Source files are under [`personalinfo.koplugin/`](personalinfo.koplugin). The pl
 ---
 
 ## Português
+
+**Descrição curta:** Widget de identificação pessoal e contato personalizável para a tela inicial do ZenOS no KOReader.
+
 
 Widget de informações pessoais para a tela inicial do ZenOS no KOReader. Permite configurar nome, e-mail, telefone, mensagem de recuperação, família e tamanho das fontes, negrito e alinhamento, sem modificar o código-fonte.
 

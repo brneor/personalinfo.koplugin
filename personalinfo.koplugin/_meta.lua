@@ -1,6 +1,6 @@
 return {
     name = "personalinfo",
-    fullname = "Informações pessoais (ZenOS)",
-    description = "Informações de contato personalizáveis na Home do ZenOS",
-    version = "1.2.0",
+    fullname = "Personal Information (ZenOS)",
+    description = "Customizable owner and contact information on the ZenOS Home screen",
+    version = "1.2.1",
 }

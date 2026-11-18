@@ -15,6 +15,11 @@ jobs:
       - name: Check out source
         uses: actions/checkout@v4
 
+      - name: Validate package layout
+        run: |
+          test -f personalinfo.koplugin/_meta.lua
+          test -f personalinfo.koplugin/main.lua
+
       - name: Package personalinfo.koplugin
         run: |
           zip -r "personalinfo.koplugin-${GITHUB_REF_NAME}.zip" personalinfo.koplugin

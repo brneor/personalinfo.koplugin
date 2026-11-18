@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.1
+
+- Add a monochrome Personal Information icon and compact preview variant.
+- Add a scalable SVG alternative for e-ink-friendly usage.
+- Improve plugin metadata and repository description.
+- Document ZenPM catalog icon limitations and installation requirements.
+- No changes to saved user settings or widget functionality.
+
 ## 1.2.0
 
 - Integrates configuration with ZenOS's Home widget management screen.

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Personal Information</title>
+  <desc id="desc">A personal contact card with owner silhouette, email, phone, and an open book</desc>
+  <g fill="none" stroke="#000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="18" y="31" width="220" height="194" rx="26"/>
+    <circle cx="77" cy="94" r="21" fill="#000" stroke="none"/>
+    <path d="M42 153q3-31 35-31t35 31z" fill="#000" stroke="none"/>
+    <rect x="133" y="80" width="27" height="21" rx="4" stroke-width="5"/>
+    <path d="m136 83 10.5 9 10.5-9" stroke-width="4"/>
+    <path d="M174 91h37"/>
+    <path d="M144 128q-3 10 6 19t19 6l7-10-7-7-7 5q-8-5-12-12l5-7-7-7z" fill="#000" stroke="none"/>
+    <path d="M184 143h27"/>
+    <path d="M40 198q45-18 88 21 43-39 88-21"/>
+  </g>
+</svg>
